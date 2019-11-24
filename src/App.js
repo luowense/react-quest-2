@@ -1,11 +1,13 @@
 import React from 'react';
-import ContactList from './Components/ContactList'
-import { resolveComponents } from 'uri-js';
+import './Components/App.css';
+import Fetcher from './Components/Fetcher'
 
 function App() {
   return (
     <div className="App">
-     <ContactList/>
+      <header className="App-header">
+        <Fetcher/>
+      </header>
     </div>
   );
 }

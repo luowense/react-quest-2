@@ -25,6 +25,7 @@ class QuoteCard extends React.Component {
               >&#9733;</span>
             </p>
           </figcaption>
+          <button type="button" onClick={this.getQuote}>Get Quote</button>
         </figure>
       );
     }
